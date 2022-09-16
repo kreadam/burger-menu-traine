@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <nav id="mainnav" aria-label="Main">
+            <ul role="list">
+                <li>
+                    <a href="home">Home</a>
+                </li>
+                <li>
+                    <a href="about-us" aria-current="page">About us</a>
+                </li>
+                <li>
+                    <a href="pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <template id="burger-template">
+        <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="mainnav">
+            <svg width="24" height="24" aria-hidden="true">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+            </svg>
+        </button>
+    </template>
+    <script src="js/burger-menu.js"></script>
+</body>
+    
+</html>
